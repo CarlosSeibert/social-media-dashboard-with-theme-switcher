@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.fundo_branco {
+  position: absolute;
+  top: 10;
+  z-index: -1;
+  width: 99%;
+  height: 25%;
+}
+
+#gremio {
+  display: flex;
+  flex-direction: column;
+  width: 1225px;
+  height: 577px;
+  border: 1px solrgb(0, 0, 0);
+}
+
+#titulo {
+  text-indent: 20px;
+  margin-bottom: 15px;
+}
+
+#card-principal {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 91%);
+  width: 22%;
+  height: 200px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#borda1 {
+  height: 4px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  background: hsl(208, 92%, 53%);
+}
+
+#borda2 {
+  height: 4px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  background: hsl(203, 89%, 53%);
+}
+
+#borda3 {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  border-radius: 5px 5px 0px 0px;
+}
+
+#borda4 {
+  height: 4px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  background: hsl(348, 97%, 39%);
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.seguidores {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.Followers {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.segdia {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  color: hsl(163, 72%, 41%);
+  font-weight: 700;
+}
+
+.down_stat {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  color: hsl(356, 69%, 56%);
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
