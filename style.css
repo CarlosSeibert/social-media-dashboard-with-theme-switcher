@@ -115,7 +115,32 @@ body {
   font-weight: 700;
 }
 
-.down_stat {
+#seta_face {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: hsl(356, 69%, 56%);
+}
+
+#seta_twiter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: hsl(356, 69%, 56%);
+}
+
+#seta_insta {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  color: hsl(356, 69%, 56%);
+}
+
+#seta_youtube {
   display: flex;
   width: 100%;
   font-size: 12px;
@@ -123,4 +148,14 @@ body {
   align-items: center;
   color: hsl(356, 69%, 56%);
   font-weight: 700;
+}
+
+#t2 {
+  display: flex;
+  font-size: 24px;
+}
+
+#b1 {
+  background-color: rgba(128, 128, 128, 0.11);
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */

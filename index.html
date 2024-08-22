@@ -1,62 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div id="gremio">
-    <div class="fundo_branco"></div>
-    <div>
-        <h1>Social Media Dashboard</h1>
-        <p>Total Followers: 23,004</p>
-    </div>  
-      
-    <div id="card-principal">
-        <div class="card">
-            <div id="borda1"></div>
-            <div class="logo"><img src="images/icon-facebook.svg" width="20px" height="20px">  <p class="arroba">@nathanf</p>
-            </div>
-           
-            <p class="seguidores">1987</p>
-            <p class="Followers">Followers</p>
-            <div class="seta"><p class="segdia">12 Today</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg></div>
+    <div id="gremio">
+        <div class="fundo_branco"></div>
+        <div id="titulo">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
         </div>
 
-        <div class="card">
-            <div id="borda2"></div>
-            <div class="logo"><img src="images/icon-twitter.svg" alt=""  width="20px" height="20px">     <p class="arroba">@nathanf</p></div>
-        
-            <p class="seguidores">1044</p>
-            <p class="Followers">Followers</p>
-           <div class="seta"> <p class="segdia">99 Today</p>  
-            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg></div>
-        </div>  
-            
-        <div class="card">
-             <div id="borda3"></div>
-            <div class="logo"><img src="images/icon-instagram.svg" alt="" width="20px" height="20px">
-                <p>@realnathanf</p></div>
-            <p class="seguidores">11K</p>
-            <p class="Followers">Followers</p>
-                <div class="seta">            <p class="segdia">1099 Today</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg></div>
+        <div id="card-principal">
+            <div class="card">
+                <div id="borda1"></div>
+                <div class="logo"><img src="images/icon-facebook.svg" width="20px" height="20px">
+                    <p class="arroba">@nathanf</p>
+                </div>
+
+                <p class="seguidores">1987</p>
+                <p class="Followers">Followers</p>
+                <div id="seta_face">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
+                        <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
+                    </svg>
+                    <div class="seta">
+                        <p class="segdia">12 Today</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div id="borda2"></div>
+                <div class="logo"><img src="images/icon-twitter.svg" alt="" width="20px" height="20px">
+                    <p class="arroba">@nathanf</p>
+                </div>
+
+                <p class="seguidores">1044</p>
+                <p class="Followers">Followers</p>
+                <div id="seta_twiter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
+                        <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
+                    </svg>
+                    <div class="seta">
+                        <p class="segdia">99 Today</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div id="borda3"></div>
+                <div class="logo"><img src="images/icon-instagram.svg" alt="" width="20px" height="20px">
+                    <p>@realnathanf</p>
+                </div>
+                <p class="seguidores">11K</p>
+                <p class="Followers">Followers</p>
+                <div id="seta_insta">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
+                        <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
+                    </svg>
+                    <div class="seta">
+                        <p class="segdia">1099 Today</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div id="borda4"></div>
+                <div class="logo"><img src="images/icon-youtube.svg" alt="" width="20px" height="20px">
+                    <p>Nathan F.</p>
+                </div>
+                <p class="seguidores">8239</p>
+                <p class="Followers">Subscribers</p>
+                <div id="seta_youtube">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
+                        <path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z" />
+                    </svg>
+                    <div class="seta">
+                        <p class="down_stat">144 Today</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <div id="borda4"></div>
-            <div class="logo"><img src="images/icon-youtube.svg" alt=""  width="20px" height="20px">
-                <p>Nathan F.</p></div>
-            <p class="seguidores">8239</p>
-            <p class="Followers">Subscribers</p>
-            <div class="seta"><p class="down_stat">144 Today</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4" ><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg></div>
+
+        <div id="t2">
+            <p>Overview - Today</p>
         </div>
+        <!-- bloco 1 pega tudo as div do overview -->
+        <div class="bloco1">
+        <!-- bloco 2 e 3 pegam metade contando da esquerda para a direita -->
+        <div id="bloco2">
+            <div id="b1">
+                <p>Page Views</p> <img src="images/icon-facebook.svg" alt="">
+                <p>87</p> <img src="images/icon-up.svg" alt=""><p>3%</p></div>
+            <div id="b2"><p>Likes</p> <img src="images/icon-facebook.svg" alt="">
+                <p>52</p> <img src="images/icon-down.svg" alt=""><p>2%</p></div>
+            <div id="b3"><p>Retweets</p> <img src="images/icon-twitter.svg" alt="">
+                <p>87</p> <img src="images/icon-up.svg" alt=""><p>303%</p></div>
+            <div id="b4"><p>Likes</p> <img src="images/icon-twitter.svg" alt="">
+                <p>509</p> <img src="images/icon-up.svg" alt=""><p>553%</p></div>
+        </div>
+
+        <div id="bloco3">
+
+        </div>
+
     </div>
-        
-</div>  
 </body>
 </html>

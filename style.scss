@@ -39,12 +39,14 @@ body {
     // border: 1px solid black;
     text-indent: 20px;
     margin-bottom: 15px;
+
 }
 
 #card-principal {
     display: flex;
     width: 100%;
     justify-content: space-around;
+
 }
 
 .card{
@@ -117,6 +119,39 @@ body {
 
 
 .down_stat {   
+
+}
+#seta_face{
+    display: flex;
+    width: 100%;
+    // font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: hsl(356, 69%, 56%);
+    // font-weight: 700;
+
+}
+#seta_twiter{
+    display: flex;
+    width: 100%;
+    // font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: hsl(356, 69%, 56%);
+    // font-weight: 700;
+
+}
+#seta_insta{
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: hsl(356, 69%, 56%);
+    // font-weight: 700;
+
+}
+#seta_youtube{
     display: flex;
     width: 100%;
     font-size: 12px;
@@ -124,6 +159,23 @@ body {
     align-items: center;
     color: hsl(356, 69%, 56%);
     font-weight: 700;
+
 }
-// .seta{
-// }
+#t2{
+    display: flex;
+    font-size: 24px;
+
+}
+#b1{
+background-color: rgba(128, 128, 128, 0.11);
+width: 200px;
+}
+#b2{
+
+}
+#b3{
+
+}
+#b4{
+
+}
